@@ -3,9 +3,9 @@ package com.example.viaticosonline.entidades;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import org.hibernate.mapping.Array;
-import org.hibernate.mapping.List;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="empleados")
